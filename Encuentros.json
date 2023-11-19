@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838cb2"
+  },
+  "fecha": {
+    "$date": "2023-10-12T00:00:00.000Z"
+  },
+  "equipo_local": "Seleccion de futbol de Colombia",
+  "equipo_visitante": "Seleccion de futbol de Uruguay",
+  "árbitro": "Piero Maza"
+},{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838cb3"
+  },
+  "fecha": {
+    "$date": "2023-11-16T00:00:00.000Z"
+  },
+  "equipo_local": "Seleccion de futbol de Colombia",
+  "equipo_visitante": "Seleccion de futbol de Brasil",
+  "árbitro": "Andres Matonte"
+}]

@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "655a5f3997c224c9bd0b3f45"
+  },
+  "Partido": "Colombia-Brasil",
+  "Goles Colombia": 2,
+  "Goles Brasil": 1,
+  "Anotacion_Brasil": "Gabriel Martinelli",
+  "Anotacion_Colombia": "Luis Diaz"
+},{
+  "_id": {
+    "$oid": "655a60e197c224c9bd0b3f46"
+  },
+  "Partido": "Colombia-Uruguay",
+  "Goles Colombia": 2,
+  "Anotacion_Colombia": "James Rodriguez-Mateus Uribe",
+  "Goles Uruguay": 2,
+  "Anotacion_Uruguay": "Mathias Olivera-Darwin Nunez"
+}]

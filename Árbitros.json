@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838cb4"
+  },
+  "nombre": "Andres Matonte",
+  "edad": 35
+},{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838cb5"
+  },
+  "nombre": "Piero Maza",
+  "edad": 39
+}]

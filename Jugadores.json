@@ -1,0 +1,33 @@
+[{
+  "_id": {
+    "$oid": "64741840a8f6c1fd7d838cad"
+  },
+  "nombre": "Luis Diaz",
+  "edad": 26,
+  "posición": "Delantero",
+  "equipo": "Seleccion de futbol de Colombia"
+},{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838cae"
+  },
+  "nombre": "James Rodriguez",
+  "edad": 32,
+  "posición": "Centrocampista",
+  "equipo": "Seleccion de futbol de Colombia"
+},{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838caf"
+  },
+  "nombre": "Neymar Jr",
+  "edad": 31,
+  "posición": "Delantero",
+  "equipo": "Seleccion de futbol de Brasil"
+},{
+  "_id": {
+    "$oid": "655a5f0697c224c9bd0b3f41"
+  },
+  "nombre": "Mathias Olivera",
+  "edad": 26,
+  "posición": "Defensor",
+  "equipo": "Seleccion de futbol de Uruguay"
+}]

@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "64741841a8f6c1fd7d838cb6"
+  },
+  "nombre": "Fernando Diniz",
+  "edad": 49,
+  "equipo": "Seleccion de futbol de Brasil"
+},{
+  "_id": {
+    "$oid": "6474184ba8f6c1fd7d838cb7"
+  },
+  "nombre": "Nestor Lorenzo",
+  "edad": 57,
+  "equipo": "Seleccion de futbol de Colombia"
+}]

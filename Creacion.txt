@@ -1,0 +1,124 @@
+use Actividadibero1
+
+// Creación de las colecciones
+db.createCollection("Jugadores")
+db.createCollection("Entrenadores")
+db.createCollection("Árbitros")
+db.createCollection("Encuentros")
+db.createCollection("Resultados")
+db.createCollection("TablaPosiciones")
+
+// Creación de índices
+db.Jugadores.createIndex({ equipo: 1 })
+db.Entrenadores.createIndex({ equipo: 1 })
+db.TablaPosiciones.createIndex({ equipo: 1 })
+
+
+// Ingreso de datos
+
+db.Jugadores.insertOne({
+  nombre: "Luis Diaz",
+  edad: 26,
+  posición: "Delantero",
+  equipo: "Seleccion de futbol de Colombia"
+})
+
+db.Jugadores.insertOne({
+  nombre: "James Rodriguez",
+  edad: 32,
+  posición: "Centrocampista",
+  equipo: "Seleccion de futbol de Colombia"
+})
+
+db.Jugadores.insertOne({
+  nombre: "Neymar Jr",
+  edad: 31,
+  posición: "Delantero",
+  equipo: "Seleccion de futbol de Brasil"
+})
+
+db.Jugadores.insertOne({
+  nombre: "Mathias Olivera",
+  edad: 26,
+  posición: "Defensor",
+  equipo: "Seleccion de futbol de Uruguay"
+})
+
+db.TablaPosiciones.insertOne({
+  equipo: "Seleccion de futbol de Colombia",
+  puntos: 9,
+  partidos_jugados: 5,
+  partidos_ganados: 2,
+  partidos_empatados: 3,
+  partidos_perdidos: 0,
+  goles_favor: 5,
+  goles_contra: 3,
+  diferencia_goles: 2
+})
+
+db.TablaPosiciones.insertOne({
+  equipo: "Seleccion de futbol de Brasil",
+  puntos: 7,
+  partidos_jugados: 5,
+  partidos_ganados: 2,
+  partidos_empatados: 1,
+  partidos_perdidos: 2,
+  goles_favor: 8,
+  goles_contra: 6,
+  diferencia_goles: 2
+})
+
+db.TablaPosiciones.insertOne({
+  equipo: "Seleccion de futbol de Uruguay",
+  puntos: 10,
+  partidos_jugados: 5,
+  partidos_ganados: 3,
+  partidos_empatados: 1,
+  partidos_perdidos: 1,
+  goles_favor: 10,
+  goles_contra: 5,
+  diferencia_goles: 5
+})
+
+
+db.Resultados.insertOne({
+  encuentro: ObjectId("id_del_encuentro"),
+  goles_local: 2,
+  goles_visitante: 0
+})
+
+db.Encuentros.insertOne({
+  fecha: new Date("2023-10-12"),
+  equipo_local: "Seleccion de futbol de Colombia",
+  equipo_visitante: "Seleccion de futbol de Uruguay",
+  árbitro: "Piero Maza"
+})
+
+db.Encuentros.insertOne({
+  fecha: new Date("2023-11-16"),
+  equipo_local: "Seleccion de futbol de Colombia",
+  equipo_visitante: "Seleccion de futbol de Brasil",
+  árbitro: "Andres Matonte"
+})
+
+db.Árbitros.insertOne({
+  nombre: "Andres Matonte",
+  edad: 35
+})
+
+db.Árbitros.insertOne({
+  nombre: "Piero Maza",
+  edad: 39
+})
+
+db.Entrenadores.insertOne({
+  nombre: "Nestor Lorenzo",
+  edad: 57,
+  equipo: "Seleccion de futbol de Colombia"
+})
+
+db.Entrenadores.insertOne({
+  nombre: "Fernando Diniz",
+  edad: 49,
+  equipo: "Seleccion de futbol de Brasil"
+})
